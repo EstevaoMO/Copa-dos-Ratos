@@ -1,0 +1,2285 @@
+[
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Ripchip",
+            "Splinter"
+        ],
+        "vencedor": "Splinter",
+        "perdedor": "Ripchip",
+        "pontuacao": {
+            "Splinter": 2,
+            "Ripchip": -1
+        },
+        "iniciativa": {
+            "Ripchip": 2.106,
+            "Splinter": 3.195,
+            "primeiro": "Splinter"
+        },
+        "turnos": [
+            {
+                "atacante": "Splinter",
+                "defensor": "Ripchip",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 4,
+                    "acerto": 92,
+                    "base": 8,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 6,
+                "vida_defensor_depois": 1,
+                "turno": 1
+            },
+            {
+                "atacante": "Ripchip",
+                "defensor": "Splinter",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 8,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 7,
+                "vida_defensor_depois": 1,
+                "turno": 2
+            },
+            {
+                "atacante": "Splinter",
+                "defensor": "Ripchip",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 4,
+                    "acerto": 92,
+                    "base": 8,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 5,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Ripchip",
+            "Stuart Little"
+        ],
+        "vencedor": "Ripchip",
+        "perdedor": "Stuart Little",
+        "pontuacao": {
+            "Ripchip": 2,
+            "Stuart Little": -1
+        },
+        "iniciativa": {
+            "Ripchip": 1.059,
+            "Stuart Little": 0.826,
+            "primeiro": "Ripchip"
+        },
+        "turnos": [
+            {
+                "atacante": "Ripchip",
+                "defensor": "Stuart Little",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 8,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 7,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Ripchip",
+            "Ratinho"
+        ],
+        "vencedor": "Ripchip",
+        "perdedor": "Ratinho",
+        "pontuacao": {
+            "Ripchip": 2,
+            "Ratinho": -1
+        },
+        "iniciativa": {
+            "Ripchip": 1.151,
+            "Ratinho": 0.084,
+            "primeiro": "Ripchip"
+        },
+        "turnos": [
+            {
+                "atacante": "Ripchip",
+                "defensor": "Ratinho",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 8,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 7,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Ripchip",
+            "Danger Mouse"
+        ],
+        "vencedor": "Ripchip",
+        "perdedor": "Danger Mouse",
+        "pontuacao": {
+            "Ripchip": 2,
+            "Danger Mouse": -1
+        },
+        "iniciativa": {
+            "Ripchip": 2.036,
+            "Danger Mouse": 0.886,
+            "primeiro": "Ripchip"
+        },
+        "turnos": [
+            {
+                "atacante": "Ripchip",
+                "defensor": "Danger Mouse",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 8,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 6,
+                "vida_defensor_depois": 2,
+                "turno": 1
+            },
+            {
+                "atacante": "Danger Mouse",
+                "defensor": "Ripchip",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 4,
+                    "acerto": 91,
+                    "base": 7,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 1,
+                "turno": 2
+            },
+            {
+                "atacante": "Ripchip",
+                "defensor": "Danger Mouse",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 8,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 4
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Splinter",
+            "Stuart Little"
+        ],
+        "vencedor": "Splinter",
+        "perdedor": "Stuart Little",
+        "pontuacao": {
+            "Splinter": 2,
+            "Stuart Little": -1
+        },
+        "iniciativa": {
+            "Splinter": 1.869,
+            "Stuart Little": 0.209,
+            "primeiro": "Splinter"
+        },
+        "turnos": [
+            {
+                "atacante": "Splinter",
+                "defensor": "Stuart Little",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 4,
+                    "acerto": 92,
+                    "base": 8,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 7,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Splinter",
+            "Ratinho"
+        ],
+        "vencedor": "Splinter",
+        "perdedor": "Ratinho",
+        "pontuacao": {
+            "Splinter": 2,
+            "Ratinho": -1
+        },
+        "iniciativa": {
+            "Splinter": 1.597,
+            "Ratinho": 0.06,
+            "primeiro": "Splinter"
+        },
+        "turnos": [
+            {
+                "atacante": "Splinter",
+                "defensor": "Ratinho",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 4,
+                    "acerto": 92,
+                    "base": 8,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Splinter",
+            "Danger Mouse"
+        ],
+        "vencedor": "Danger Mouse",
+        "perdedor": "Splinter",
+        "pontuacao": {
+            "Danger Mouse": 2,
+            "Splinter": -1
+        },
+        "iniciativa": {
+            "Splinter": 1.967,
+            "Danger Mouse": 4.369,
+            "primeiro": "Danger Mouse"
+        },
+        "turnos": [
+            {
+                "atacante": "Danger Mouse",
+                "defensor": "Splinter",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 4,
+                    "acerto": 91,
+                    "base": 7,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 2,
+                "turno": 1
+            },
+            {
+                "atacante": "Splinter",
+                "defensor": "Danger Mouse",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 4,
+                    "acerto": 92,
+                    "base": 8,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 6,
+                "vida_defensor_depois": 2,
+                "turno": 2
+            },
+            {
+                "atacante": "Danger Mouse",
+                "defensor": "Splinter",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 4,
+                    "acerto": 91,
+                    "base": 7,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Stuart Little",
+            "Ratinho"
+        ],
+        "vencedor": "Ratinho",
+        "perdedor": "Stuart Little",
+        "pontuacao": {
+            "Ratinho": 2,
+            "Stuart Little": -1
+        },
+        "iniciativa": {
+            "Stuart Little": 0.288,
+            "Ratinho": 0.582,
+            "primeiro": "Ratinho"
+        },
+        "turnos": [
+            {
+                "atacante": "Ratinho",
+                "defensor": "Stuart Little",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 4,
+                    "acerto": 80,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 4,
+                "turno": 1
+            },
+            {
+                "atacante": "Stuart Little",
+                "defensor": "Ratinho",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 4,
+                    "acerto": 82,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 4,
+                "turno": 2
+            },
+            {
+                "atacante": "Ratinho",
+                "defensor": "Stuart Little",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 4,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 4,
+                    "acerto": 80,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 1,
+                "turno": 3
+            },
+            {
+                "atacante": "Stuart Little",
+                "defensor": "Ratinho",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 4,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 4,
+                    "acerto": 82,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 1,
+                "turno": 4
+            },
+            {
+                "atacante": "Ratinho",
+                "defensor": "Stuart Little",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 4,
+                    "acerto": 80,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 0,
+                "turno": 5
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Stuart Little",
+            "Danger Mouse"
+        ],
+        "vencedor": "Danger Mouse",
+        "perdedor": "Stuart Little",
+        "pontuacao": {
+            "Danger Mouse": 2,
+            "Stuart Little": -1
+        },
+        "iniciativa": {
+            "Stuart Little": 0.871,
+            "Danger Mouse": 4.345,
+            "primeiro": "Danger Mouse"
+        },
+        "turnos": [
+            {
+                "atacante": "Danger Mouse",
+                "defensor": "Stuart Little",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 4,
+                    "acerto": 91,
+                    "base": 7,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_A",
+        "competidores": [
+            "Ratinho",
+            "Danger Mouse"
+        ],
+        "vencedor": "Danger Mouse",
+        "perdedor": "Ratinho",
+        "pontuacao": {
+            "Danger Mouse": 2,
+            "Ratinho": -1
+        },
+        "iniciativa": {
+            "Ratinho": 1.784,
+            "Danger Mouse": 1.928,
+            "primeiro": "Danger Mouse"
+        },
+        "turnos": [
+            {
+                "atacante": "Danger Mouse",
+                "defensor": "Ratinho",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 4,
+                    "acerto": 91,
+                    "base": 7,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 1
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Ligeirinho",
+            "Jerry"
+        ],
+        "vencedor": "Jerry",
+        "perdedor": "Ligeirinho",
+        "pontuacao": {
+            "Jerry": 2,
+            "Ligeirinho": -1
+        },
+        "iniciativa": {
+            "Ligeirinho": 0.951,
+            "Jerry": 2.552,
+            "primeiro": "Jerry"
+        },
+        "turnos": [
+            {
+                "atacante": "Jerry",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 2,
+                "turno": 1
+            },
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Jerry",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 2
+            },
+            {
+                "atacante": "Jerry",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Ligeirinho",
+            "Remy"
+        ],
+        "vencedor": "Ligeirinho",
+        "perdedor": "Remy",
+        "pontuacao": {
+            "Ligeirinho": 2,
+            "Remy": -1
+        },
+        "iniciativa": {
+            "Ligeirinho": 3.336,
+            "Remy": 3.344,
+            "primeiro": "Remy"
+        },
+        "turnos": [
+            {
+                "atacante": "Remy",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 5,
+                "turno": 1
+            },
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Remy",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 1,
+                "turno": 2
+            },
+            {
+                "atacante": "Remy",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 4,
+                "turno": 3
+            },
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Remy",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Ligeirinho",
+            "Comichão"
+        ],
+        "vencedor": "Comichão",
+        "perdedor": "Ligeirinho",
+        "pontuacao": {
+            "Comichão": 2,
+            "Ligeirinho": -1
+        },
+        "iniciativa": {
+            "Ligeirinho": 0.42,
+            "Comichão": 0.98,
+            "primeiro": "Comichão"
+        },
+        "turnos": [
+            {
+                "atacante": "Comichão",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 1
+            },
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Comichão",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 4
+                },
+                "dano": 3,
+                "vida_defensor_depois": 6,
+                "turno": 2
+            },
+            {
+                "atacante": "Comichão",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Ligeirinho",
+            "Mickey"
+        ],
+        "vencedor": "Ligeirinho",
+        "perdedor": "Mickey",
+        "pontuacao": {
+            "Ligeirinho": 2,
+            "Mickey": -1
+        },
+        "iniciativa": {
+            "Ligeirinho": 1.294,
+            "Mickey": 0.195,
+            "primeiro": "Ligeirinho"
+        },
+        "turnos": [
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Mickey",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 5,
+                "vida_defensor_depois": 1,
+                "turno": 1
+            },
+            {
+                "atacante": "Mickey",
+                "defensor": "Ligeirinho",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 86,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 2,
+                "turno": 2
+            },
+            {
+                "atacante": "Ligeirinho",
+                "defensor": "Mickey",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 96,
+                    "base": 7,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 6,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Jerry",
+            "Remy"
+        ],
+        "vencedor": "Jerry",
+        "perdedor": "Remy",
+        "pontuacao": {
+            "Jerry": 2,
+            "Remy": -1
+        },
+        "iniciativa": {
+            "Jerry": 2.31,
+            "Remy": 2.843,
+            "primeiro": "Remy"
+        },
+        "turnos": [
+            {
+                "atacante": "Remy",
+                "defensor": "Jerry",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Jerry",
+                "defensor": "Remy",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 2
+            },
+            {
+                "atacante": "Remy",
+                "defensor": "Jerry",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 3,
+                "turno": 3
+            },
+            {
+                "atacante": "Jerry",
+                "defensor": "Remy",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Jerry",
+            "Comichão"
+        ],
+        "vencedor": "Comichão",
+        "perdedor": "Jerry",
+        "pontuacao": {
+            "Comichão": 2,
+            "Jerry": -1
+        },
+        "iniciativa": {
+            "Jerry": 2.963,
+            "Comichão": 2.023,
+            "primeiro": "Jerry"
+        },
+        "turnos": [
+            {
+                "atacante": "Jerry",
+                "defensor": "Comichão",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Comichão",
+                "defensor": "Jerry",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 4,
+                "turno": 2
+            },
+            {
+                "atacante": "Jerry",
+                "defensor": "Comichão",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 4
+                },
+                "dano": 2,
+                "vida_defensor_depois": 4,
+                "turno": 3
+            },
+            {
+                "atacante": "Comichão",
+                "defensor": "Jerry",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 4,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Jerry",
+            "Mickey"
+        ],
+        "vencedor": "Jerry",
+        "perdedor": "Mickey",
+        "pontuacao": {
+            "Jerry": 2,
+            "Mickey": -1
+        },
+        "iniciativa": {
+            "Jerry": 3.332,
+            "Mickey": 2.457,
+            "primeiro": "Jerry"
+        },
+        "turnos": [
+            {
+                "atacante": "Jerry",
+                "defensor": "Mickey",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 1,
+                "turno": 1
+            },
+            {
+                "atacante": "Mickey",
+                "defensor": "Jerry",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 86,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 2
+            },
+            {
+                "atacante": "Jerry",
+                "defensor": "Mickey",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Remy",
+            "Comichão"
+        ],
+        "vencedor": "Comichão",
+        "perdedor": "Remy",
+        "pontuacao": {
+            "Comichão": 2,
+            "Remy": -1
+        },
+        "iniciativa": {
+            "Remy": 2.801,
+            "Comichão": 3.211,
+            "primeiro": "Comichão"
+        },
+        "turnos": [
+            {
+                "atacante": "Comichão",
+                "defensor": "Remy",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 2,
+                "turno": 1
+            },
+            {
+                "atacante": "Remy",
+                "defensor": "Comichão",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 6,
+                "turno": 2
+            },
+            {
+                "atacante": "Comichão",
+                "defensor": "Remy",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Remy",
+            "Mickey"
+        ],
+        "vencedor": "Mickey",
+        "perdedor": "Remy",
+        "pontuacao": {
+            "Mickey": 2,
+            "Remy": -1
+        },
+        "iniciativa": {
+            "Remy": 1.789,
+            "Mickey": 0.737,
+            "primeiro": "Remy"
+        },
+        "turnos": [
+            {
+                "atacante": "Remy",
+                "defensor": "Mickey",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 5,
+                "turno": 1
+            },
+            {
+                "atacante": "Mickey",
+                "defensor": "Remy",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 86,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 2,
+                "turno": 2
+            },
+            {
+                "atacante": "Remy",
+                "defensor": "Mickey",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 86,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 3,
+                "turno": 3
+            },
+            {
+                "atacante": "Mickey",
+                "defensor": "Remy",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 86,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_B",
+        "competidores": [
+            "Comichão",
+            "Mickey"
+        ],
+        "vencedor": "Comichão",
+        "perdedor": "Mickey",
+        "pontuacao": {
+            "Comichão": 2,
+            "Mickey": -1
+        },
+        "iniciativa": {
+            "Comichão": 1.813,
+            "Mickey": 0.607,
+            "primeiro": "Comichão"
+        },
+        "turnos": [
+            {
+                "atacante": "Comichão",
+                "defensor": "Mickey",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 3,
+                "turno": 1
+            },
+            {
+                "atacante": "Mickey",
+                "defensor": "Comichão",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 86,
+                    "base": 6,
+                    "resistencia_inimigo": 4,
+                    "resistencia_sorteada": 4
+                },
+                "dano": 2,
+                "vida_defensor_depois": 7,
+                "turno": 2
+            },
+            {
+                "atacante": "Comichão",
+                "defensor": "Mickey",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 5,
+                    "inteligencia": 3,
+                    "acerto": 84,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Bernardo e Bianca",
+            "Os Três Ratos Cegos"
+        ],
+        "vencedor": "Bernardo e Bianca",
+        "perdedor": "Os Três Ratos Cegos",
+        "pontuacao": {
+            "Bernardo e Bianca": 2,
+            "Os Três Ratos Cegos": -1
+        },
+        "iniciativa": {
+            "Bernardo e Bianca": 0.447,
+            "Os Três Ratos Cegos": 0.304,
+            "primeiro": "Bernardo e Bianca"
+        },
+        "turnos": [
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 10,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 5,
+                "turno": 1
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Bernardo e Bianca",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 4,
+                "vida_defensor_depois": 5,
+                "turno": 2
+            },
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Bernardo e Bianca",
+            "Roddy"
+        ],
+        "vencedor": "Bernardo e Bianca",
+        "perdedor": "Roddy",
+        "pontuacao": {
+            "Bernardo e Bianca": 2,
+            "Roddy": -1
+        },
+        "iniciativa": {
+            "Bernardo e Bianca": 2.386,
+            "Roddy": 1.101,
+            "primeiro": "Bernardo e Bianca"
+        },
+        "turnos": [
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Roddy",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 4,
+                "turno": 1
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Bernardo e Bianca",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 5,
+                "turno": 2
+            },
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Roddy",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 4,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Bernardo e Bianca",
+            "Pink e Cérebro"
+        ],
+        "vencedor": "Bernardo e Bianca",
+        "perdedor": "Pink e Cérebro",
+        "pontuacao": {
+            "Bernardo e Bianca": 2,
+            "Pink e Cérebro": -1
+        },
+        "iniciativa": {
+            "Bernardo e Bianca": 2.521,
+            "Pink e Cérebro": 1.518,
+            "primeiro": "Bernardo e Bianca"
+        },
+        "turnos": [
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 4,
+                "turno": 1
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Bernardo e Bianca",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 6,
+                "turno": 2
+            },
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 4,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Bernardo e Bianca",
+            "Timóteo Q. Rato"
+        ],
+        "vencedor": "Bernardo e Bianca",
+        "perdedor": "Timóteo Q. Rato",
+        "pontuacao": {
+            "Bernardo e Bianca": 2,
+            "Timóteo Q. Rato": -1
+        },
+        "iniciativa": {
+            "Bernardo e Bianca": 1.114,
+            "Timóteo Q. Rato": 0.433,
+            "primeiro": "Bernardo e Bianca"
+        },
+        "turnos": [
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 1
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Bernardo e Bianca",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 7,
+                "turno": 2
+            },
+            {
+                "atacante": "Bernardo e Bianca",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 5,
+                    "acerto": 89,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 3
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Os Três Ratos Cegos",
+            "Roddy"
+        ],
+        "vencedor": "Os Três Ratos Cegos",
+        "perdedor": "Roddy",
+        "pontuacao": {
+            "Os Três Ratos Cegos": 2,
+            "Roddy": -1
+        },
+        "iniciativa": {
+            "Os Três Ratos Cegos": 1.31,
+            "Roddy": 1.376,
+            "primeiro": "Roddy"
+        },
+        "turnos": [
+            {
+                "atacante": "Roddy",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 10,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Roddy",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 2
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 4,
+                "vida_defensor_depois": 2,
+                "turno": 3
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Roddy",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 4,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Os Três Ratos Cegos",
+            "Pink e Cérebro"
+        ],
+        "vencedor": "Pink e Cérebro",
+        "perdedor": "Os Três Ratos Cegos",
+        "pontuacao": {
+            "Pink e Cérebro": 2,
+            "Os Três Ratos Cegos": -1
+        },
+        "iniciativa": {
+            "Os Três Ratos Cegos": 0.609,
+            "Pink e Cérebro": 2.142,
+            "primeiro": "Pink e Cérebro"
+        },
+        "turnos": [
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 10,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 8,
+                "turno": 1
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 2,
+                "vida_defensor_depois": 7,
+                "turno": 2
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 6,
+                "turno": 3
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 2,
+                "vida_defensor_depois": 5,
+                "turno": 4
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 3,
+                "turno": 5
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 4,
+                "vida_defensor_depois": 1,
+                "turno": 6
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 0,
+                "turno": 7
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Os Três Ratos Cegos",
+            "Timóteo Q. Rato"
+        ],
+        "vencedor": "Os Três Ratos Cegos",
+        "perdedor": "Timóteo Q. Rato",
+        "pontuacao": {
+            "Os Três Ratos Cegos": 2,
+            "Timóteo Q. Rato": -1
+        },
+        "iniciativa": {
+            "Os Três Ratos Cegos": 1.273,
+            "Timóteo Q. Rato": 2.509,
+            "primeiro": "Timóteo Q. Rato"
+        },
+        "turnos": [
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 10,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 8,
+                "turno": 1
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 4,
+                "vida_defensor_depois": 3,
+                "turno": 2
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 6,
+                "turno": 3
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 2,
+                "vida_defensor_depois": 1,
+                "turno": 4
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Os Três Ratos Cegos",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 2,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 4,
+                "turno": 5
+            },
+            {
+                "atacante": "Os Três Ratos Cegos",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 4,
+                    "inteligencia": 3,
+                    "acerto": 68,
+                    "base": 5,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 2,
+                "vida_defensor_depois": 0,
+                "turno": 6
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Roddy",
+            "Pink e Cérebro"
+        ],
+        "vencedor": "Roddy",
+        "perdedor": "Pink e Cérebro",
+        "pontuacao": {
+            "Roddy": 2,
+            "Pink e Cérebro": -1
+        },
+        "iniciativa": {
+            "Roddy": 1.825,
+            "Pink e Cérebro": 0.914,
+            "primeiro": "Roddy"
+        },
+        "turnos": [
+            {
+                "atacante": "Roddy",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Roddy",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 5,
+                "turno": 2
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 1,
+                "turno": 3
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Roddy",
+                "vida_atacante": 1,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 4,
+                "turno": 4
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 1,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 0,
+                "turno": 5
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Roddy",
+            "Timóteo Q. Rato"
+        ],
+        "vencedor": "Roddy",
+        "perdedor": "Timóteo Q. Rato",
+        "pontuacao": {
+            "Roddy": 2,
+            "Timóteo Q. Rato": -1
+        },
+        "iniciativa": {
+            "Roddy": 1.595,
+            "Timóteo Q. Rato": 3.011,
+            "primeiro": "Timóteo Q. Rato"
+        },
+        "turnos": [
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Roddy",
+                "vida_atacante": 7,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 5,
+                "vida_defensor_depois": 2,
+                "turno": 2
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Roddy",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 5,
+                "turno": 3
+            },
+            {
+                "atacante": "Roddy",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 3,
+                    "inteligencia": 4,
+                    "acerto": 87,
+                    "base": 6,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 3,
+                "vida_defensor_depois": 0,
+                "turno": 4
+            }
+        ]
+    },
+    {
+        "grupo": "grupo_C",
+        "competidores": [
+            "Pink e Cérebro",
+            "Timóteo Q. Rato"
+        ],
+        "vencedor": "Pink e Cérebro",
+        "perdedor": "Timóteo Q. Rato",
+        "pontuacao": {
+            "Pink e Cérebro": 2,
+            "Timóteo Q. Rato": -1
+        },
+        "iniciativa": {
+            "Pink e Cérebro": 2.039,
+            "Timóteo Q. Rato": 0.398,
+            "primeiro": "Pink e Cérebro"
+        },
+        "turnos": [
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 9,
+                "vida_defensor_antes": 7,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 6,
+                "turno": 1
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 6,
+                "vida_defensor_antes": 9,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 8,
+                "turno": 2
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 8,
+                "vida_defensor_antes": 6,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 3,
+                "turno": 3
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 3,
+                "vida_defensor_antes": 8,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 1
+                },
+                "dano": 3,
+                "vida_defensor_depois": 5,
+                "turno": 4
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 5,
+                "vida_defensor_antes": 3,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 2,
+                "turno": 5
+            },
+            {
+                "atacante": "Timóteo Q. Rato",
+                "defensor": "Pink e Cérebro",
+                "vida_atacante": 2,
+                "vida_defensor_antes": 5,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 88,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 3
+                },
+                "dano": 1,
+                "vida_defensor_depois": 4,
+                "turno": 6
+            },
+            {
+                "atacante": "Pink e Cérebro",
+                "defensor": "Timóteo Q. Rato",
+                "vida_atacante": 4,
+                "vida_defensor_antes": 2,
+                "formula": {
+                    "forca": 2,
+                    "inteligencia": 5,
+                    "acerto": 90,
+                    "base": 4,
+                    "resistencia_inimigo": 3,
+                    "resistencia_sorteada": 2
+                },
+                "dano": 2,
+                "vida_defensor_depois": 0,
+                "turno": 7
+            }
+        ]
+    }
+]

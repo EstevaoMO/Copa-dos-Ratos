@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Copa dos Ratos - Classificação</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Baloo+2:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#161616;
+    --paper:#fffaf0;
+    --yellow:#ffd23f;
+    --red:#ef4444;
+    --red-deep:#b91c1c;
+    --blue:#2f8fe0;
+    --blue-deep:#1c5f9e;
+    --green:#3fb556;
+    --green-deep:#1f7a34;
+    --sky:#bfe8ff;
+    --qualify:#d6f5df;
+ 
+    /* ---- controla o tamanho geral da TABELA (fotos, texto, células) ---- */
+    /* mude só este número: 1 = tamanho original, 1.4 = 40% maior, etc. */
+    --ui-scale: 1.4;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Baloo 2', sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(circle, rgba(0,0,0,.07) 1.6px, transparent 1.6px) 0 0/22px 22px,
+      var(--sky);
+    padding:24px 12px 60px;
+    min-height:100vh;
+  }
+ 
+  /* ---------------- masthead ---------------- */
+  .masthead{ max-width:1100px; margin:0 auto 26px; text-align:center; }
+  .masthead .ball{ font-size:34px; display:inline-block; transform:translateY(4px) rotate(-8deg); }
+  .masthead h1{
+    font-family:'Luckiest Guy', cursive; font-weight:400;
+    font-size:clamp(30px,6.5vw,58px); margin:2px 0 0; line-height:.95;
+    color:var(--yellow);
+    -webkit-text-stroke:4px var(--ink);
+    text-shadow:6px 6px 0 var(--red);
+  }
+  .masthead .sub{
+    display:inline-block; margin-top:14px;
+    font-family:'Luckiest Guy', cursive; font-size:15px; letter-spacing:.06em;
+    background:var(--ink); color:var(--paper);
+    padding:6px 22px; border-radius:999px; transform:rotate(-2deg);
+    box-shadow:4px 4px 0 rgba(0,0,0,.25);
+  }
+ 
+  /* ---------------- groups layout ---------------- */
+  .groups{
+    max-width:1500px; margin:0 auto;
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;
+  }
+  @media(max-width:900px){ .groups{ grid-template-columns:1fr; } }
+ 
+  .group{
+    background:var(--paper);
+    border:5px solid var(--ink);
+    border-radius:22px;
+    box-shadow:8px 8px 0 rgba(0,0,0,.85);
+    padding:16px 12px 14px;
+    position:relative;
+  }
+  .group-head{ display:flex; align-items:center; gap:10px; justify-content:center; margin:-38px 0 14px; }
+  .badge{
+    --c:var(--red); --cd:var(--red-deep);
+    width:66px; height:66px; border-radius:50%;
+    background:var(--c); border:5px solid var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Luckiest Guy', cursive; font-size:30px; color:#fff;
+    box-shadow:4px 4px 0 rgba(0,0,0,.6); flex:0 0 auto;
+  }
+  .group.b .badge{ --c:var(--blue); }
+  .group.c .badge{ --c:var(--green); }
+  .group-head .label{
+    background:var(--ink); color:var(--paper);
+    font-family:'Luckiest Guy', cursive; font-size:15px; letter-spacing:.05em;
+    padding:7px 16px; border-radius:10px; transform:rotate(-2deg);
+  }
+ 
+  /* ---------------- standings table ---------------- */
+  table.standings{ width:100%; border-collapse:separate; border-spacing:0 6px; }
+  table.standings th{
+    font-family:'JetBrains Mono', monospace; font-size:calc(9.5px * var(--ui-scale)); letter-spacing:.04em;
+    text-transform:uppercase; color:#7a7a7a; font-weight:700; padding:0 6px calc(4px * var(--ui-scale));
+    text-align:center;
+  }
+  table.standings th.th-team{ text-align:left; }
+  table.standings td{
+    background:#fff; border:3px solid var(--ink); padding:calc(6px * var(--ui-scale)) calc(6px * var(--ui-scale));
+    text-align:center; font-weight:800; font-size:calc(13px * var(--ui-scale));
+  }
+  table.standings tr td:first-child{ border-radius:10px 0 0 10px; border-right:none; }
+  table.standings tr td:last-child{ border-radius:0 10px 10px 0; border-left:none; }
+  table.standings tr td:not(:first-child):not(:last-child){ border-left:none; border-right:none; }
+ 
+  .pos{
+    --c:var(--red);
+    width:calc(26px * var(--ui-scale)); height:calc(26px * var(--ui-scale)); border-radius:50%;
+    background:var(--c); color:#fff; border:2px solid var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Luckiest Guy', cursive; font-size:calc(13px * var(--ui-scale)); margin:0 auto;
+  }
+  .group.b .pos{ --c:var(--blue); }
+  .group.c .pos{ --c:var(--green); }
+  tr.qualified td{ background:var(--qualify); }
+ 
+  .team-cell{ display:flex; align-items:center; gap:calc(8px * var(--ui-scale)); text-align:left; }
+  .team-photo{
+    width:calc(50px * var(--ui-scale)); height:calc(50px * var(--ui-scale)); border-radius:8px; border:2px solid var(--ink);
+    background:repeating-linear-gradient(45deg, #fff 0 6px, #f0eee6 6px 12px);
+    object-fit:cover; flex:0 0 auto;
+  }
+  .team-name{ font-family:'Luckiest Guy', cursive; font-size:calc(12.5px * var(--ui-scale)); line-height:1.05; }
+ 
+  .legend-row{
+    max-width:1100px; margin:10px auto 0; display:flex; gap:14px; justify-content:center;
+    font-size:11px; font-weight:700; color:#555;
+  }
+  .legend-row .sw{ width:12px; height:12px; border-radius:3px; display:inline-block; border:2px solid var(--ink); vertical-align:-1px; margin-right:4px; }
+ 
+  /* ---------------- resultados ---------------- */
+  .results-title{
+    max-width:1100px; margin:44px auto 16px; text-align:center;
+  }
+  .results-title span{
+    font-family:'Luckiest Guy', cursive; font-size:26px; color:#fff;
+    -webkit-text-stroke:3px var(--ink);
+    background:var(--red); padding:8px 26px; border-radius:14px;
+    border:4px solid var(--ink); box-shadow:5px 5px 0 rgba(0,0,0,.6);
+    display:inline-block; transform:rotate(-1deg);
+  }
+ 
+  .results-groups{ max-width:1100px; margin:0 auto; display:flex; flex-direction:column; gap:26px; }
+  .results-group h3{
+    font-family:'Luckiest Guy', cursive; font-size:16px; text-align:center;
+    color:var(--ink); margin:0 0 10px;
+  }
+  .matches{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:12px; }
+ 
+  .match{
+    background:#fff; border:4px solid var(--ink); border-radius:16px;
+    box-shadow:4px 4px 0 rgba(0,0,0,.5); padding:10px 12px; font-size:12.5px;
+  }
+  .match .vs{
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
+    font-family:'Luckiest Guy', cursive; font-size:14px; margin-bottom:6px;
+  }
+  .match .vs .side{ display:flex; align-items:center; gap:6px; flex:1 1 0; min-width:0; }
+  .match .vs .side img{ width:28px; height:28px; border-radius:6px; border:2px solid var(--ink); object-fit:cover; flex:0 0 auto; }
+  .match .vs .side.winner{ color:var(--green-deep); }
+  .match .vs .side.loser{ color:#999; text-decoration:line-through; opacity:.7; }
+  .match .vs .x{ font-family:'Baloo 2'; font-weight:800; color:#bbb; font-size:11px; }
+ 
+  .match .score{
+    text-align:center; font-family:'JetBrains Mono', monospace; font-weight:700; font-size:11px;
+    color:#666; margin-bottom:8px;
+  }
+  .match .score b{ color:var(--red-deep); }
+ 
+  .turns{ border-top:2px dashed #ddd; padding-top:6px; display:flex; flex-direction:column; gap:3px; }
+  .turn-line{ font-family:'JetBrains Mono', monospace; font-size:10.5px; color:#444; }
+  .turn-line b{ color:var(--ink); }
+  .turn-line .dano{ color:var(--red-deep); font-weight:700; }
+ 
+  .note{
+    max-width:1100px; margin:26px auto 0; padding:12px 18px; border-radius:14px;
+    background:#fff; border:3px dashed var(--ink);
+    font-size:12px; line-height:1.6; font-weight:600;
+  }
+  .note code{ background:var(--yellow); padding:1px 6px; border-radius:5px; font-weight:800; }
+ 
+  #load-error{
+    max-width:1100px; margin:20px auto; padding:14px 18px; border-radius:14px;
+    background:#fff3f3; border:3px solid var(--red-deep); color:var(--red-deep);
+    font-weight:700; font-size:13px; display:none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <span class="ball">⚽</span>
+  <h1>COPA DOS RATOS</h1>
+  <div class="sub">CLASSIFICAÇÃO · FASE DE GRUPOS · 2026</div>
+</div>
+
+<div id="load-error"></div>
+<div id="groups-root" class="groups"></div>
+<div class="legend-row"><span><span class="sw" style="background:var(--qualify)"></span></span></div>
+
+<div class="results-title"><span>RESULTADOS DOS CONFRONTOS</span></div>
+<div id="results-root" class="results-groups"></div>
+
+<script>
+  // ---------- fotos dos personagens (ajuste os links se quiser trocar) ----------
+  const PHOTOS = {
+    "Ripchip": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5c%2F6a%2Fe4%2F5c6ae4cab0356189b64248323038cae7.png&f=1&nofb=1",
+    "Jerry": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Ftom_and_jerry%2Ftom_and_jerry_PNG53.png&f=1&nofb=1",
+    "Remy": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fef%2Fc4%2F7e%2Fefc47e0407c2b1bdbbb37433d3062b73.jpg&f=1&nofb=1",
+    "Pink e Cérebro": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Fpinky-and-the-brain-in-cage-8rewxr2ehxserbo0.jpg&f=1&nofb=1",
+    "Comichão": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-vvA0ChFHxKc%2FVPsI9nmVPDI%2FAAAAAAACEaQ%2FwaG4W91_LNg%2Fs1600%2F12.jpg&f=1&nofb=1",
+    "Splinter": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F68%2F93%2F0d%2F68930d8ad23ca51d4bf5afaec4e320a2.jpg&f=1&nofb=1",
+    "Ligeirinho": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ff-dNnqsLqfc%2Fmaxresdefault.jpg&f=1&nofb=1",
+    "Stuart Little": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F620ed322b636691d6dbd7a82%2Fb8539539-70a9-448c-813d-16ae6c5aee03%2FStuart%2BLittle.jpg&f=1&nofb=1",
+    "Ratinho": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXuHTAyWWJkE%2Fmaxresdefault.jpg&f=1&nofb=1",
+    "Danger Mouse": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimageservice.disco.peacocktv.com%2Fuuid%2Fea0fa568-eada-3e72-9592-b78ae96d4d83%2FLAND_16_9%3Flanguage%3Deng%26territory%3DUS%26version%3Dff1093e1-7458-3b66-8134-ad2389f8b722&f=1&nofb=1&ipt=b97e722324ff82478cc9953b342b0b1f517bf74756d0bb55e270ff0d9dc39cd3",
+    "Os Três Ratos Cegos": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.thedirect.com%2Fmedia%2Fphotos%2F9threeblindmice.png&f=1&nofb=1",
+    "Roddy": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZZN2BRY1Hb8%2Fmaxresdefault.jpg&f=1&nofb=1",
+    "Mickey": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.zerochan.net%2FMickey.Mouse.full.890739.jpg&f=1&nofb=1",
+    "Bernardo e Bianca": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff5%2Fc1%2Fab%2Ff5c1ab6d0d99178df1cfaab22e8aabb7.jpg&f=1&nofb=1",
+    "Timóteo Q. Rato": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdisney%2Fimages%2F1%2F13%2FTimoteo1.png%2Frevision%2Flatest%3Fcb%3D20130826173115%26path-prefix%3Des&f=1&nofb=1&ipt=0f76c3599f75e19c6f248f70f30e00cfe13771efc19f0c8ab4b514dd7b200623"
+  };
+  const GROUP_LABEL = { grupo_A: "A", grupo_B: "B", grupo_C: "C" };
+  const GROUP_CLASS = { grupo_A: "a", grupo_B: "b", grupo_C: "c" };
+
+  function photoFor(nome){ return PHOTOS[nome] || ""; }
+  function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+  function renderStandings(colocacoes){
+    const root = document.getElementById('groups-root');
+    root.innerHTML = '';
+    Object.keys(colocacoes).forEach(grupoKey => {
+      const cls = GROUP_CLASS[grupoKey] || '';
+      const label = GROUP_LABEL[grupoKey] || grupoKey.replace('grupo_', '');
+      const ranking = colocacoes[grupoKey];
+
+      let rows = '';
+      Object.keys(ranking).forEach(posKey => {
+        const row = ranking[posKey];
+        const posNum = parseInt(posKey, 10);
+        const qualified = posNum <= 2 ? 'qualified' : '';
+        rows += `
+          <tr class="${qualified}">
+            <td><div class="pos">${posNum}</div></td>
+            <td>
+              <div class="team-cell">
+                <img class="team-photo" src="${photoFor(row.nome)}" alt="${esc(row.nome)}" onerror="this.style.visibility='hidden'">
+                <span class="team-name">${esc(row.nome)}</span>
+              </div>
+            </td>
+            <td>${row.pts}</td>
+            <td>${row.vitorias}</td>
+            <td>${row.derrotas}</td>
+          </tr>`;
+      });
+
+      root.insertAdjacentHTML('beforeend', `
+        <div class="group ${cls}">
+          <div class="group-head">
+            <div class="badge">${label}</div>
+            <div class="label">GRUPO ${label}</div>
+          </div>
+          <table class="standings">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th class="th-team">Rato</th>
+                <th>Pts</th>
+                <th>V</th>
+                <th>D</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`);
+    });
+  }
+
+  function renderResults(resultados){
+    const root = document.getElementById('results-root');
+    root.innerHTML = '';
+
+    // agrupa confrontos por grupo, na ordem em que aparecem
+    const byGroup = {};
+    const order = [];
+    resultados.forEach(match => {
+      const g = match.grupo || 'grupo_?';
+      if (!byGroup[g]) { byGroup[g] = []; order.push(g); }
+      byGroup[g].push(match);
+    });
+
+    order.forEach(grupoKey => {
+      const label = GROUP_LABEL[grupoKey] || grupoKey.replace('grupo_', '');
+      let cardsHtml = '';
+
+      byGroup[grupoKey].forEach(match => {
+        const [c1, c2] = match.competidores || [];
+        const vencedor = match.vencedor;
+        const perdedor = match.perdedor;
+        const pv = match.pontuacao ? match.pontuacao[vencedor] : null;
+        const pp = match.pontuacao ? match.pontuacao[perdedor] : null;
+
+
+        const turnsHtml = (match.turnos || []).map(t => {
+          return `<div class="turn-line">
+            <b>T${t.turno}</b> ${esc(t.atacante)} ➜ ${esc(t.defensor)} ·
+            dano <span class="dano">${t.dano}</span> ·
+            vida ${t.vida_defensor_antes}→${t.vida_defensor_depois}
+          </div>`;
+        }).join('');
+
+        cardsHtml += `
+          <div class="match">
+            <div class="vs">
+              <div class="side winner">
+                <img src="${photoFor(vencedor)}" alt="${esc(vencedor)}" onerror="this.style.visibility='hidden'">
+                <span>${esc(vencedor)}</span>
+              </div>
+              <span class="x">✕</span>
+              <div class="side loser">
+                <img src="${photoFor(perdedor)}" alt="${esc(perdedor)}" onerror="this.style.visibility='hidden'">
+                <span>${esc(perdedor)}</span>
+              </div>
+            </div>
+            <div class="score">
+              ${pv !== null ? `<b>${esc(vencedor)}</b> ${pv >= 0 ? '+' : ''}${pv} pts` : ''}
+              ${pp !== null ? ` &nbsp;|&nbsp; ${esc(perdedor)} ${pp >= 0 ? '+' : ''}${pp} pts` : ''}
+              </div>
+              </div>`;
+              // <div class="turns">${turnsHtml}</div>
+      });
+
+      root.insertAdjacentHTML('beforeend', `
+        <div class="results-group">
+          <h3>GRUPO ${label}</h3>
+          <div class="matches">${cardsHtml}</div>
+        </div>`);
+    });
+  }
+
+  function showError(msg){
+    const el = document.getElementById('load-error');
+    el.style.display = 'block';
+    el.textContent = msg;
+  }
+
+  Promise.all([
+    fetch('colocacoes.json').then(r => {
+      if (!r.ok) throw new Error('Arquivo não encontrado (' + r.status + ')');
+      return r.json();
+    }),
+    fetch('resultado_confrontos.json').then(r => {
+      if (!r.ok) throw new Error('Arquivo não encontrado (' + r.status + ')');
+      return r.json();
+    })
+  ])
+    .then(([colocacoesData, resultadosData]) => {
+      const colocacoes = colocacoesData || null;
+      const resultados = resultadosData || null;
+
+      if (colocacoes) renderStandings(colocacoes);
+      else showError('Não encontrei a chave "colocacoes" no JSON. Verifique o nome da chave no arquivo.');
+
+      if (resultados) renderResults(resultados);
+      else showError('Não encontrei a chave "resultados" no JSON. Verifique o nome da chave no arquivo.');
+    })
+    .catch(err => {
+      showError('Não foi possível carregar os arquivos JSON: ' + err.message +
+        '. Confirme que os arquivos estão na mesma pasta deste HTML e que você está abrindo via um servidor local (não file://).');
+    });
+</script>
+
+</body>
+</html>

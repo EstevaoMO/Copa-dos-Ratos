@@ -1,0 +1,197 @@
+[
+  {
+    "nome": "Ripchip",
+    "programa": "As Crônicas de Nárnia",
+    "descricao": "Pequeno guerreiro cavalheiresco que luta com uma espada em duelos precisos. Compensa o tamanho com coragem, disciplina militar e técnica refinada.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 3,
+      "forca": 4,
+      "acerto": 88,
+      "velocidade": 4,
+      "inteligencia": 5
+    }
+  },
+  {
+    "nome": "Splinter",
+    "programa": "As Tartarugas Ninja",
+    "descricao": "Mestre ninja experiente que usa artes marciais, bastão e contra-ataques. Analisa o adversário antes de atacar e explora seus erros.",
+    "atributos": {
+      "vida": 8,
+      "resistencia": 4,
+      "forca": 5,
+      "acerto": 92,
+      "velocidade": 4,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Ligeirinho",
+    "programa": "Looney Tunes",
+    "descricao": "Extremamente veloz, desfere investidas rápidas e difíceis de acompanhar. Usa velocidade e reflexos para atacar e escapar ileso.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 3,
+      "forca": 3,
+      "acerto": 96,
+      "velocidade": 5,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Jerry",
+    "programa": "Tom & Jerry",
+    "descricao": "Especialista em improvisar armadilhas com objetos do ambiente. Prefere derrotar adversários com criatividade e timing perfeito.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 3,
+      "forca": 3,
+      "acerto": 84,
+      "velocidade": 5,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Stuart Little",
+    "programa": "Stuart Little",
+    "descricao": "Rato ágil e engenhoso que utiliza veículos, ferramentas e criatividade para superar desafios. Evita confrontos diretos sempre que possível.",
+    "atributos": {
+      "vida": 6,
+      "resistencia": 2,
+      "forca": 2,
+      "acerto": 82,
+      "velocidade": 4,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Remy",
+    "programa": "Ratatouille",
+    "descricao": "Chef extremamente habilidoso que improvisa utensílios e usa inteligência, agilidade e precisão para neutralizar adversários.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 2,
+      "forca": 2,
+      "acerto": 86,
+      "velocidade": 4,
+      "inteligencia": 5
+    }
+  },
+  {
+    "nome": "Bernardo e Bianca",
+    "programa": "The Rescuers",
+    "descricao": "Dupla de ratos investigadores que trabalha em perfeita cooperação. Planejam emboscadas e exploram oportunidades para vencer.",
+    "atributos": {
+      "vida": 9,
+      "resistencia": 2,
+      "forca": 3,
+      "acerto": 89,
+      "velocidade": 3,
+      "inteligencia": 5
+    }
+  },
+  {
+    "nome": "Ratinho",
+    "programa": "Castelo Rá-Tim-Bum",
+    "descricao": "Rato curioso e esperto que usa criatividade, pequenos truques e o ambiente para confundir seus oponentes.",
+    "atributos": {
+      "vida": 6,
+      "resistencia": 2,
+      "forca": 2,
+      "acerto": 80,
+      "velocidade": 3,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Os Três Ratos Cegos",
+    "programa": "Shrek",
+    "descricao": "Trio que luta em conjunto. Apesar da falta de visão, compensa com ataques coordenados, número superior e boa resistência coletiva.",
+    "atributos": {
+      "vida": 10,
+      "resistencia": 2,
+      "forca": 4,
+      "acerto": 68,
+      "velocidade": 2,
+      "inteligencia": 3
+    }
+  },
+  {
+    "nome": "Roddy",
+    "programa": "Por Água Abaixo",
+    "descricao": "Rato doméstico elegante que aprende a sobreviver no esgoto. Usa agilidade, improviso e inteligência para explorar o ambiente e superar adversários mais fortes.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 3,
+      "forca": 3,
+      "acerto": 87,
+      "velocidade": 5,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Danger Mouse",
+    "programa": "Danger Mouse",
+    "descricao": "Agente secreto que combina treinamento, equipamentos e reflexos excepcionais. Alterna combate corpo a corpo com dispositivos especiais.",
+    "atributos": {
+      "vida": 8,
+      "resistencia": 4,
+      "forca": 4,
+      "acerto": 91,
+      "velocidade": 5,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Pink e Cérebro",
+    "programa": "Pink e Cérebro",
+    "descricao": "Dupla inseparável. Cérebro cria estratégias complexas enquanto Pink improvisa soluções inesperadas. Vencem pela combinação de genialidade e caos.",
+    "atributos": {
+      "vida": 9,
+      "resistencia": 3,
+      "forca": 2,
+      "acerto": 90,
+      "velocidade": 3,
+      "inteligencia": 5
+    }
+  },
+  {
+    "nome": "Comichão",
+    "programa": "Comichão e Coçadinha",
+    "descricao": "Rato extremamente agressivo que utiliza armas, explosivos e violência cartunesca. Mesmo destruído, costuma continuar lutando.",
+    "atributos": {
+      "vida": 9,
+      "resistencia": 4,
+      "forca": 5,
+      "acerto": 84,
+      "velocidade": 4,
+      "inteligencia": 3
+    }
+  },
+  {
+    "nome": "Mickey",
+    "programa": "Mickey e Seus Amigos",
+    "descricao": "Aventureiro versátil que combina coragem, raciocínio rápido e improvisação. Adapta sua estratégia conforme o tipo de adversário.",
+    "atributos": {
+      "vida": 6,
+      "resistencia": 3,
+      "forca": 3,
+      "acerto": 86,
+      "velocidade": 3,
+      "inteligencia": 4
+    }
+  },
+  {
+    "nome": "Timóteo Q. Rato",
+    "programa": "Dumbo",
+    "descricao": "Pequeno rato carismático e estrategista que compensa a falta de força com coragem, liderança e raciocínio rápido. Costuma motivar aliados e encontrar soluções criativas em situações difíceis.",
+    "atributos": {
+      "vida": 7,
+      "resistencia": 3,
+      "forca": 2,
+      "acerto": 88,
+      "velocidade": 4,
+      "inteligencia": 5
+    }
+  }
+]

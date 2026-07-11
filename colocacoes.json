@@ -1,0 +1,98 @@
+{
+    "grupo_A": {
+        "1º": {
+            "nome": "Ripchip",
+            "pts": 5,
+            "vitorias": 3,
+            "derrotas": 1
+        },
+        "2º": {
+            "nome": "Splinter",
+            "pts": 5,
+            "vitorias": 3,
+            "derrotas": 1
+        },
+        "3º": {
+            "nome": "Danger Mouse",
+            "pts": 5,
+            "vitorias": 3,
+            "derrotas": 1
+        },
+        "4º": {
+            "nome": "Ratinho",
+            "pts": -1,
+            "vitorias": 1,
+            "derrotas": 3
+        },
+        "5º": {
+            "nome": "Stuart Little",
+            "pts": -4,
+            "vitorias": 0,
+            "derrotas": 4
+        }
+    },
+    "grupo_B": {
+        "1º": {
+            "nome": "Comichão",
+            "pts": 8,
+            "vitorias": 4,
+            "derrotas": 0
+        },
+        "2º": {
+            "nome": "Jerry",
+            "pts": 5,
+            "vitorias": 3,
+            "derrotas": 1
+        },
+        "3º": {
+            "nome": "Ligeirinho",
+            "pts": 2,
+            "vitorias": 2,
+            "derrotas": 2
+        },
+        "4º": {
+            "nome": "Mickey",
+            "pts": -1,
+            "vitorias": 1,
+            "derrotas": 3
+        },
+        "5º": {
+            "nome": "Remy",
+            "pts": -4,
+            "vitorias": 0,
+            "derrotas": 4
+        }
+    },
+    "grupo_C": {
+        "1º": {
+            "nome": "Bernardo e Bianca",
+            "pts": 8,
+            "vitorias": 4,
+            "derrotas": 0
+        },
+        "2º": {
+            "nome": "Os Três Ratos Cegos",
+            "pts": 2,
+            "vitorias": 2,
+            "derrotas": 2
+        },
+        "3º": {
+            "nome": "Roddy",
+            "pts": 2,
+            "vitorias": 2,
+            "derrotas": 2
+        },
+        "4º": {
+            "nome": "Pink e Cérebro",
+            "pts": 2,
+            "vitorias": 2,
+            "derrotas": 2
+        },
+        "5º": {
+            "nome": "Timóteo Q. Rato",
+            "pts": -4,
+            "vitorias": 0,
+            "derrotas": 4
+        }
+    }
+}
